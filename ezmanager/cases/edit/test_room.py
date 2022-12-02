@@ -1,7 +1,7 @@
 
 import pytest
 from api.login import sysConf
-from api.meeting_room import*
+from api.room import*
 from common.connect_pg import DbConnectPg
 from common.read_yaml import readyml
 import allure
