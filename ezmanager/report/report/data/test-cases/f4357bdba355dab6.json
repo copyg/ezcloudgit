@@ -1,0 +1,105 @@
+{
+  "uid" : "f4357bdba355dab6",
+  "name" : "可更改专属会议室排序",
+  "fullName" : "cases.edit.test_room.TestRoom#test_02",
+  "historyId" : "236072e08fde32cc937528fd53ea0c17",
+  "time" : {
+    "start" : 1669257997920,
+    "stop" : 1669257998005,
+    "duration" : 85
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_method_fixture_TestRoom",
+    "time" : {
+      "start" : 1669257997863,
+      "stop" : 1669257997919,
+      "duration" : 56
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "xunit_setup_method_fixture_TestRoom::0",
+    "time" : {
+      "start" : 1669257998016,
+      "stop" : 1669257998016,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "分会场管理"
+  }, {
+    "name" : "story",
+    "value" : "修改分会场基础信息"
+  }, {
+    "name" : "epic",
+    "value" : "会议室管理"
+  }, {
+    "name" : "parentSuite",
+    "value" : "cases.edit"
+  }, {
+    "name" : "suite",
+    "value" : "test_room"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRoom"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-CORM66E"
+  }, {
+    "name" : "thread",
+    "value" : "57856-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "cases.edit.test_room"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected",
+    "value" : "{'code': 0, 'message': 'SUCCESS'}"
+  }, {
+    "name" : "parameter",
+    "value" : "{'id': 4, 'pid': 3, 'name': '分会场管理'}"
+  }, {
+    "name" : "title",
+    "value" : "'可更改专属会议室排序'"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f4357bdba355dab6.json",
+  "parameterValues" : [ "{'code': 0, 'message': 'SUCCESS'}", "{'id': 4, 'pid': 3, 'name': '分会场管理'}", "'可更改专属会议室排序'" ]
+}

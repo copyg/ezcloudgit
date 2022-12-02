@@ -1,0 +1,6 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Tue Nov 22 18:11:51 CST 2022","Tue Nov 22 18:11:51 CST 2022","98","cases.edit","test_edit_room","TestRoom","","","会议室名称限制不可输入特殊符号",""
+"passed","Tue Nov 22 18:11:51 CST 2022","Tue Nov 22 18:11:51 CST 2022","1","cases.edit","test_edit_room","TestRoom","","","会议室名称限制不可输入特殊符号",""
+"passed","Tue Nov 22 18:10:47 CST 2022","Tue Nov 22 18:10:47 CST 2022","19","test_lianxi","test_fist","TestRoomko","","","test_01[param0-expected0-会议室名称限制不可输入特殊符号]",""
+"passed","Tue Nov 22 18:10:47 CST 2022","Tue Nov 22 18:10:47 CST 2022","0","test_lianxi","test_fist","TestRoomko","","","test_02",""
+"broken","Tue Nov 22 18:10:47 CST 2022","Tue Nov 22 18:10:47 CST 2022","0","cases.edit","test_user","TestRoom","","","用户名限制不可输入特殊符号",""

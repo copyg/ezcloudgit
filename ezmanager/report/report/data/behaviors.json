@@ -1,0 +1,184 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "会议室管理",
+    "children" : [ {
+      "name" : "分会场管理",
+      "children" : [ {
+        "name" : "修改分会场基础信息",
+        "children" : [ {
+          "name" : "可更改专属会议室排序",
+          "uid" : "35fe36d4f98b2b05",
+          "parentUid" : "478005ec9f700e5405ac0bd9a8198dc0",
+          "status" : "passed",
+          "time" : {
+            "start" : 1669258069124,
+            "stop" : 1669258069209,
+            "duration" : 85
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'code': 0, 'message': 'SUCCESS'}", "{'id': 4, 'pid': 3, 'name': '分会场管理'}", "'可更改专属会议室排序'" ]
+        }, {
+          "name" : "可更改会议室类型名称",
+          "uid" : "20d38d1dd8f6629b",
+          "parentUid" : "478005ec9f700e5405ac0bd9a8198dc0",
+          "status" : "passed",
+          "time" : {
+            "start" : 1669258174728,
+            "stop" : 1669258174813,
+            "duration" : 85
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'code': 0, 'message': 'SUCCESS'}", "{'name': '会议室类型', 'id': 14, 'remark': '1', 'updatedTime': '2022-11-23 16:02:58'}", "'可更改会议室类型名称'" ]
+        }, {
+          "name" : "可更改区域名",
+          "uid" : "bbaafd8dc4dff16",
+          "parentUid" : "478005ec9f700e5405ac0bd9a8198dc0",
+          "status" : "failed",
+          "time" : {
+            "start" : 1669258204626,
+            "stop" : 1669258204640,
+            "duration" : 14
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'code': 0, 'message': 'SUCCESS'}", "{'name': '区域', 'id': 10073, 'unitPrice': 1}", "'可更改区域名'" ]
+        }, {
+          "name" : "可更改区域每小时收费值",
+          "uid" : "7980dce5713be34a",
+          "parentUid" : "478005ec9f700e5405ac0bd9a8198dc0",
+          "status" : "failed",
+          "time" : {
+            "start" : 1669258204747,
+            "stop" : 1669258204758,
+            "duration" : 11
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'code': 0, 'message': 'SUCCESS'}", "{'name': '区域', 'id': 10073, 'unitPrice': 1}", "'可更改区域每小时收费值'" ]
+        } ],
+        "uid" : "478005ec9f700e5405ac0bd9a8198dc0"
+      } ],
+      "uid" : "e5e583787dacc3db9589f0e57d74303f"
+    }, {
+      "name" : "会议室",
+      "children" : [ {
+        "name" : "修改会议室基础信息",
+        "children" : [ {
+          "name" : "会议室名称限制不可输入特殊符号",
+          "uid" : "77dd9fd8bd45bae3",
+          "parentUid" : "8c813d4f9f01da0f04a7727293508372",
+          "status" : "passed",
+          "time" : {
+            "start" : 1669258203509,
+            "stop" : 1669258203599,
+            "duration" : 90
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'code': 0, 'message': 'SUCCESS'}", "{'name': '会议室名更改', 'id': 54182, 'pid': 12282, 'roomTypeIds': ['3', '1'], 'remark': ['1'], 'capacity': 1, 'sortNo': 1, 'unitPrice': 1}", "'会议室名称限制不可输入特殊符号'" ]
+        }, {
+          "name" : "会议室容量可输入最大值为100000000",
+          "uid" : "9ccae70dd1a3fa7e",
+          "parentUid" : "8c813d4f9f01da0f04a7727293508372",
+          "status" : "passed",
+          "time" : {
+            "start" : 1669258203679,
+            "stop" : 1669258203766,
+            "duration" : 87
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'code': 0, 'message': 'SUCCESS'}", "{'name': '会议室容量最大值', 'id': 54182, 'pid': 12282, 'roomTypeIds': ['3', '1'], 'remark': ['1'], 'capacity': 100000000, 'sortNo': 1, 'unitPrice': 1}", "'会议室容量可输入最大值为100000000'" ]
+        }, {
+          "name" : "会议室排序号可输入最大值为100000000",
+          "uid" : "42c07a12993ec531",
+          "parentUid" : "8c813d4f9f01da0f04a7727293508372",
+          "status" : "passed",
+          "time" : {
+            "start" : 1669258203848,
+            "stop" : 1669258203933,
+            "duration" : 85
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'code': 0, 'message': 'SUCCESS'}", "{'name': '会议室排序号最大值', 'id': 54182, 'pid': 12282, 'roomTypeIds': ['3', '1'], 'remark': ['1'], 'capacity': 1, 'sortNo': 100000000, 'unitPrice': 1}", "'会议室排序号可输入最大值为100000000'" ]
+        }, {
+          "name" : "会议室排序号可输入最大值为100000000",
+          "uid" : "5719fe8c3d567c1",
+          "parentUid" : "8c813d4f9f01da0f04a7727293508372",
+          "status" : "passed",
+          "time" : {
+            "start" : 1669258204009,
+            "stop" : 1669258204096,
+            "duration" : 87
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'code': 0, 'message': 'SUCCESS'}", "{'name': '会议室费用最大值', 'id': 54182, 'pid': 12282, 'roomTypeIds': ['3'], 'remark': ['1'], 'capacity': 1, 'sortNo': 1, 'unitPrice': 100000000}", "'会议室排序号可输入最大值为100000000'" ]
+        } ],
+        "uid" : "8c813d4f9f01da0f04a7727293508372"
+      } ],
+      "uid" : "d024a54e9dd2097d9f8986617db52789"
+    }, {
+      "name" : "区域",
+      "children" : [ {
+        "name" : "修改会议室区域信息",
+        "children" : [ {
+          "name" : "可更改区域名",
+          "uid" : "f8cee6580546cd9",
+          "parentUid" : "c5b4161bf45b12349b1632d33a4a4e19",
+          "status" : "passed",
+          "time" : {
+            "start" : 1669258204154,
+            "stop" : 1669258204246,
+            "duration" : 92
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'code': 0, 'message': 'SUCCESS'}", "{'name': '区域', 'id': 10073, 'unitPrice': 1}", "'可更改区域名'" ]
+        }, {
+          "name" : "可更改区域每小时收费值",
+          "uid" : "4a3d13b2299f8e8d",
+          "parentUid" : "c5b4161bf45b12349b1632d33a4a4e19",
+          "status" : "passed",
+          "time" : {
+            "start" : 1669258204313,
+            "stop" : 1669258204401,
+            "duration" : 88
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'code': 0, 'message': 'SUCCESS'}", "{'name': '区域', 'id': 10073, 'unitPrice': 1}", "'可更改区域每小时收费值'" ]
+        } ],
+        "uid" : "c5b4161bf45b12349b1632d33a4a4e19"
+      } ],
+      "uid" : "a425177ac64b6cb53961d6b848b3d775"
+    }, {
+      "name" : "会议室类型",
+      "children" : [ {
+        "name" : "修改会议室类型",
+        "children" : [ {
+          "name" : "可更改会议室类型名称",
+          "uid" : "e45a5f1c84dd2390",
+          "parentUid" : "97382cc58bca490c3d7cf9c81b7649fb",
+          "status" : "passed",
+          "time" : {
+            "start" : 1669258204465,
+            "stop" : 1669258204549,
+            "duration" : 84
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'code': 0, 'message': 'SUCCESS'}", "{'name': '会议室类型', 'id': 14, 'remark': '1', 'updatedTime': '2022-11-23 16:02:58'}", "'可更改会议室类型名称'" ]
+        } ],
+        "uid" : "97382cc58bca490c3d7cf9c81b7649fb"
+      } ],
+      "uid" : "b04863ee613a68b214b5e33aebe15043"
+    } ],
+    "uid" : "be73a0d1f74dd385bd7510edfbc295c1"
+  } ],
+  "name" : "behaviors"
+}

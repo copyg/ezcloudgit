@@ -1,0 +1,182 @@
+{
+  "uid" : "f8cee6580546cd9",
+  "name" : "可更改区域名",
+  "fullName" : "cases.edit.test_room.TestRoom#test_roomarea",
+  "historyId" : "1571e682e66bad07b64bbcefce71d2a7",
+  "time" : {
+    "start" : 1669258204154,
+    "stop" : 1669258204246,
+    "duration" : 92
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_method_fixture_TestRoom",
+    "time" : {
+      "start" : 1669258204100,
+      "stop" : 1669258204153,
+      "duration" : 53
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "xunit_setup_method_fixture_TestRoom::0",
+    "time" : {
+      "start" : 1669258204248,
+      "stop" : 1669258204248,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "修改会议室区域信息"
+  }, {
+    "name" : "epic",
+    "value" : "会议室管理"
+  }, {
+    "name" : "feature",
+    "value" : "区域"
+  }, {
+    "name" : "parentSuite",
+    "value" : "cases.edit"
+  }, {
+    "name" : "suite",
+    "value" : "test_room"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRoom"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-CORM66E"
+  }, {
+    "name" : "thread",
+    "value" : "43148-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "cases.edit.test_room"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected",
+    "value" : "{'code': 0, 'message': 'SUCCESS'}"
+  }, {
+    "name" : "parameter",
+    "value" : "{'name': '区域', 'id': 10073, 'unitPrice': 1}"
+  }, {
+    "name" : "title",
+    "value" : "'可更改区域名'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a1637ee7ca69bf1d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669258174234,
+        "stop" : 1669258174321,
+        "duration" : 87
+      }
+    }, {
+      "uid" : "421e074c1ba20038",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669258068674,
+        "stop" : 1669258068761,
+        "duration" : 87
+      }
+    }, {
+      "uid" : "ba9a00efb3eef541",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669258041289,
+        "stop" : 1669258041391,
+        "duration" : 102
+      }
+    }, {
+      "uid" : "30da2ddf36bd97d3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669258013247,
+        "stop" : 1669258013338,
+        "duration" : 91
+      }
+    }, {
+      "uid" : "e905e1a5f21083a7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669257997418,
+        "stop" : 1669257997505,
+        "duration" : 87
+      }
+    }, {
+      "uid" : "a136a65e071a318",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669257981708,
+        "stop" : 1669257981794,
+        "duration" : 86
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "50028cd1598f1e9c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1669258041289,
+          "stop" : 1669258041391,
+          "duration" : 102
+        }
+      }, {
+        "uid" : "ec455aa7d7cb3718",
+        "status" : "passed",
+        "time" : {
+          "start" : 1669257772031,
+          "stop" : 1669257772121,
+          "duration" : 90
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "f8cee6580546cd9.json",
+  "parameterValues" : [ "{'code': 0, 'message': 'SUCCESS'}", "{'name': '区域', 'id': 10073, 'unitPrice': 1}", "'可更改区域名'" ]
+}

@@ -1,0 +1,182 @@
+{
+  "uid" : "e45a5f1c84dd2390",
+  "name" : "可更改会议室类型名称",
+  "fullName" : "cases.edit.test_room.TestRoom#test_roomtype",
+  "historyId" : "2f93e91ab67920e283e2be7d3b62367c",
+  "time" : {
+    "start" : 1669258204465,
+    "stop" : 1669258204549,
+    "duration" : 84
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_method_fixture_TestRoom",
+    "time" : {
+      "start" : 1669258204407,
+      "stop" : 1669258204464,
+      "duration" : 57
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "xunit_setup_method_fixture_TestRoom::0",
+    "time" : {
+      "start" : 1669258204552,
+      "stop" : 1669258204552,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "修改会议室类型"
+  }, {
+    "name" : "epic",
+    "value" : "会议室管理"
+  }, {
+    "name" : "feature",
+    "value" : "会议室类型"
+  }, {
+    "name" : "parentSuite",
+    "value" : "cases.edit"
+  }, {
+    "name" : "suite",
+    "value" : "test_room"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRoom"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-CORM66E"
+  }, {
+    "name" : "thread",
+    "value" : "43148-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "cases.edit.test_room"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected",
+    "value" : "{'code': 0, 'message': 'SUCCESS'}"
+  }, {
+    "name" : "parameter",
+    "value" : "{'name': '会议室类型', 'id': 14, 'remark': '1', 'updatedTime': '2022-11-23 16:02:58'}"
+  }, {
+    "name" : "title",
+    "value" : "'可更改会议室类型名称'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "7e3fec6d9924f696",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669258174569,
+        "stop" : 1669258174660,
+        "duration" : 91
+      }
+    }, {
+      "uid" : "49eea6cebb3b325c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669258068979,
+        "stop" : 1669258069065,
+        "duration" : 86
+      }
+    }, {
+      "uid" : "57d747d81889da2c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669258041609,
+        "stop" : 1669258041699,
+        "duration" : 90
+      }
+    }, {
+      "uid" : "41ac78f12fc0d1be",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669258013533,
+        "stop" : 1669258013626,
+        "duration" : 93
+      }
+    }, {
+      "uid" : "73360ff60b054585",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669257997738,
+        "stop" : 1669257997857,
+        "duration" : 119
+      }
+    }, {
+      "uid" : "5f54a795d37174dc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669257982025,
+        "stop" : 1669257982109,
+        "duration" : 84
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "5d4eafe192b8cfc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1669258041609,
+          "stop" : 1669258041699,
+          "duration" : 90
+        }
+      }, {
+        "uid" : "9b82b6ad6e227c1d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1669257772362,
+          "stop" : 1669257772453,
+          "duration" : 91
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "e45a5f1c84dd2390.json",
+  "parameterValues" : [ "{'code': 0, 'message': 'SUCCESS'}", "{'name': '会议室类型', 'id': 14, 'remark': '1', 'updatedTime': '2022-11-23 16:02:58'}", "'可更改会议室类型名称'" ]
+}

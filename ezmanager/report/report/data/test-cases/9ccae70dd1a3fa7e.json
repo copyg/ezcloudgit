@@ -1,0 +1,182 @@
+{
+  "uid" : "9ccae70dd1a3fa7e",
+  "name" : "会议室容量可输入最大值为100000000",
+  "fullName" : "cases.edit.test_room.TestRoom#test_01",
+  "historyId" : "1bfdc6ce73637c6b7522f059b9167a5d",
+  "time" : {
+    "start" : 1669258203679,
+    "stop" : 1669258203766,
+    "duration" : 87
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_method_fixture_TestRoom",
+    "time" : {
+      "start" : 1669258203605,
+      "stop" : 1669258203679,
+      "duration" : 74
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "xunit_setup_method_fixture_TestRoom::0",
+    "time" : {
+      "start" : 1669258203768,
+      "stop" : 1669258203768,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "会议室"
+  }, {
+    "name" : "epic",
+    "value" : "会议室管理"
+  }, {
+    "name" : "story",
+    "value" : "修改会议室基础信息"
+  }, {
+    "name" : "parentSuite",
+    "value" : "cases.edit"
+  }, {
+    "name" : "suite",
+    "value" : "test_room"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRoom"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-CORM66E"
+  }, {
+    "name" : "thread",
+    "value" : "43148-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "cases.edit.test_room"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected",
+    "value" : "{'code': 0, 'message': 'SUCCESS'}"
+  }, {
+    "name" : "parameter",
+    "value" : "{'name': '会议室容量最大值', 'id': 54182, 'pid': 12282, 'roomTypeIds': ['3', '1'], 'remark': ['1'], 'capacity': 100000000, 'sortNo': 1, 'unitPrice': 1}"
+  }, {
+    "name" : "title",
+    "value" : "'会议室容量可输入最大值为100000000'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "d87d75aecc3e8e79",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669258173744,
+        "stop" : 1669258173828,
+        "duration" : 84
+      }
+    }, {
+      "uid" : "a70e87e25fcdfbe9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669258068200,
+        "stop" : 1669258068289,
+        "duration" : 89
+      }
+    }, {
+      "uid" : "f91714818b63fbc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669258040796,
+        "stop" : 1669258040882,
+        "duration" : 86
+      }
+    }, {
+      "uid" : "e52c532cbdb42000",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669258012819,
+        "stop" : 1669258012903,
+        "duration" : 84
+      }
+    }, {
+      "uid" : "415a13b13ca253d6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669257996922,
+        "stop" : 1669257997019,
+        "duration" : 97
+      }
+    }, {
+      "uid" : "efdc5c82a87b04be",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669257981210,
+        "stop" : 1669257981300,
+        "duration" : 90
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "3f864c2d6c24137d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1669258040796,
+          "stop" : 1669258040882,
+          "duration" : 86
+        }
+      }, {
+        "uid" : "5234ed7a2a7b7184",
+        "status" : "passed",
+        "time" : {
+          "start" : 1669257771480,
+          "stop" : 1669257771570,
+          "duration" : 90
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "9ccae70dd1a3fa7e.json",
+  "parameterValues" : [ "{'code': 0, 'message': 'SUCCESS'}", "{'name': '会议室容量最大值', 'id': 54182, 'pid': 12282, 'roomTypeIds': ['3', '1'], 'remark': ['1'], 'capacity': 100000000, 'sortNo': 1, 'unitPrice': 1}", "'会议室容量可输入最大值为100000000'" ]
+}

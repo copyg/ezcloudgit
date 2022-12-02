@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="641304e0-fb36-480e-acc2-01e3e5da6319" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="215Ex4wxa1ruitZpoNYIIWJxq5h" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\pycharm\ezLink\common" />
+      <recent name="D:\pycharm\ezLink\case" />
+      <recent name="D:\pycharm\ezLink\case\meetingroom" />
+      <recent name="D:\pycharm\ezLink" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.login">
+    <configuration name="login" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ezLink" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_lianxi" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="D:\pycharm\ezLink\common\login.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_fist (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ezLink" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lianxi" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lianxi/test_fist.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_fist" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ezLink" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lianxi" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="D:\pycharm\ezLink\lianxi\test_fist.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in test_fist.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="ezLink" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_lianxi" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_lianxi/test_fist.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.login" />
+        <item itemvalue="Python tests.pytest in test_fist.py" />
+        <item itemvalue="Python.test_fist (1)" />
+        <item itemvalue="Python.test_fist" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="641304e0-fb36-480e-acc2-01e3e5da6319" name="Default Changelist" comment="" />
+      <created>1637222790756</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1637222790756</updated>
+      <workItem from="1637222792615" duration="122000" />
+      <workItem from="1637222969522" duration="6000" />
+      <workItem from="1637223259007" duration="6000" />
+      <workItem from="1637223290045" duration="628000" />
+      <workItem from="1637223934024" duration="481000" />
+      <workItem from="1637287569103" duration="380000" />
+      <workItem from="1639711613272" duration="488000" />
+      <workItem from="1639712115868" duration="1451000" />
+      <workItem from="1641280811364" duration="2405000" />
+      <workItem from="1641527088570" duration="107000" />
+      <workItem from="1641527251602" duration="46000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="996" y="326" key="FileChooserDialogImpl" timestamp="1639712347869">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="996" y="326" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1639712347869" />
+    <state width="1340" height="243" key="GridCell.Tab.0.bottom" timestamp="1641365353745">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1340" height="243" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1641365353745" />
+    <state width="1340" height="243" key="GridCell.Tab.0.center" timestamp="1641365353745">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1340" height="243" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1641365353745" />
+    <state width="1340" height="243" key="GridCell.Tab.0.left" timestamp="1641365353745">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1340" height="243" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1641365353745" />
+    <state width="1340" height="243" key="GridCell.Tab.0.right" timestamp="1641365353745">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1340" height="243" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1641365353745" />
+    <state width="1340" height="256" key="GridCell.Tab.1.bottom" timestamp="1637223923520">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1340" height="256" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1637223923520" />
+    <state width="1340" height="256" key="GridCell.Tab.1.center" timestamp="1637223923520">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1340" height="256" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1637223923520" />
+    <state width="1340" height="256" key="GridCell.Tab.1.left" timestamp="1637223923520">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1340" height="256" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1637223923520" />
+    <state width="1340" height="256" key="GridCell.Tab.1.right" timestamp="1637223923520">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1340" height="256" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1637223923520" />
+    <state x="561" y="262" key="SettingsEditor" timestamp="1639712525132">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="561" y="262" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1639712525132" />
+    <state x="652" y="347" key="com.intellij.ide.util.TipDialog" timestamp="1637222804483">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="652" y="347" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1637222804483" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/ezLink$fist.coverage" NAME="fist Coverage Results" MODIFIED="1637223570298" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lianxi" />
+    <SUITE FILE_PATH="coverage/ezLink$pytest_in_test_fist_py.coverage" NAME="pytest in test_fist.py Coverage Results" MODIFIED="1641281600759" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_lianxi" />
+    <SUITE FILE_PATH="coverage/ezLink$test_fist__1_.coverage" NAME="test_fist (1) Coverage Results" MODIFIED="1637224181983" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lianxi" />
+    <SUITE FILE_PATH="coverage/ezLink$login.coverage" NAME="login Coverage Results" MODIFIED="1641365202118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_lianxi" />
+  </component>
+</project>

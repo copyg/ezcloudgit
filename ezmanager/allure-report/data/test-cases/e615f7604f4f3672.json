@@ -1,0 +1,114 @@
+{
+  "uid" : "e615f7604f4f3672",
+  "name" : "会议室名称限制不可输入特殊符号",
+  "fullName" : "cases.edit.test_edit_room.TestRoom#test_02",
+  "historyId" : "66573d5bd9499330d7c3fc1e8d1dcdd5",
+  "time" : {
+    "start" : 1669111911943,
+    "stop" : 1669111911944,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_method_fixture_TestRoom",
+    "time" : {
+      "start" : 1669111911902,
+      "stop" : 1669111911942,
+      "duration" : 40
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "xunit_setup_method_fixture_TestRoom::0",
+    "time" : {
+      "start" : 1669111911946,
+      "stop" : 1669111911946,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "修改会议室信息"
+  }, {
+    "name" : "parentSuite",
+    "value" : "cases.edit"
+  }, {
+    "name" : "suite",
+    "value" : "test_edit_room"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRoom"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-CORM66E"
+  }, {
+    "name" : "thread",
+    "value" : "45508-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "cases.edit.test_edit_room"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected",
+    "value" : "{'code': 0, 'message': 'SUCCESS'}"
+  }, {
+    "name" : "param",
+    "value" : "{'name': '房间', 'id': 54182}"
+  }, {
+    "name" : "title",
+    "value" : "'会议室名称限制不可输入特殊符号'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "ecc8f854d64cc6d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669111848444,
+        "stop" : 1669111848445,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "7b3a0866dc6341b9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669111847270,
+        "stop" : 1669111847270,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e615f7604f4f3672.json",
+  "parameterValues" : [ "{'code': 0, 'message': 'SUCCESS'}", "{'name': '房间', 'id': 54182}", "'会议室名称限制不可输入特殊符号'" ]
+}

@@ -1,0 +1,102 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "cases.edit",
+    "children" : [ {
+      "name" : "test_user",
+      "children" : [ {
+        "name" : "TestRoom",
+        "children" : [ {
+          "name" : "用户名限制不可输入特殊符号",
+          "uid" : "6a1368997ecaf11c",
+          "parentUid" : "487fe321fb25ddb436a4dd211c6b1114",
+          "status" : "broken",
+          "time" : {
+            "start" : 1669111847280,
+            "stop" : 1669111847280,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'message': 'success'}", "{'actualName': '用户名', 'nickname': '', 'id': '713', 'email': '', 'tel': '', 'deptId': 192}", "'用户名限制不可输入特殊符号'" ]
+        } ],
+        "uid" : "487fe321fb25ddb436a4dd211c6b1114"
+      } ],
+      "uid" : "689d897783bad0d67eebe22975c39021"
+    }, {
+      "name" : "test_edit_room",
+      "children" : [ {
+        "name" : "TestRoom",
+        "children" : [ {
+          "name" : "会议室名称限制不可输入特殊符号",
+          "uid" : "fb83231a11d8a049",
+          "parentUid" : "3aedb8b55e720a0a01008afd03ee8a76",
+          "status" : "passed",
+          "time" : {
+            "start" : 1669111911792,
+            "stop" : 1669111911890,
+            "duration" : 98
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'code': 0, 'message': 'SUCCESS'}", "{'name': '房间', 'id': 54182}", "'会议室名称限制不可输入特殊符号'" ]
+        }, {
+          "name" : "会议室名称限制不可输入特殊符号",
+          "uid" : "e615f7604f4f3672",
+          "parentUid" : "3aedb8b55e720a0a01008afd03ee8a76",
+          "status" : "passed",
+          "time" : {
+            "start" : 1669111911943,
+            "stop" : 1669111911944,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'code': 0, 'message': 'SUCCESS'}", "{'name': '房间', 'id': 54182}", "'会议室名称限制不可输入特殊符号'" ]
+        } ],
+        "uid" : "3aedb8b55e720a0a01008afd03ee8a76"
+      } ],
+      "uid" : "21654afed1cb1d187ca1a8ef6161ac07"
+    } ],
+    "uid" : "f3ae433522af9233d407075352709582"
+  }, {
+    "name" : "test_lianxi",
+    "children" : [ {
+      "name" : "test_fist",
+      "children" : [ {
+        "name" : "TestRoomko",
+        "children" : [ {
+          "name" : "test_01[param0-expected0-会议室名称限制不可输入特殊符号]",
+          "uid" : "5e1bfffe8d2b6c22",
+          "parentUid" : "092bc693fa99e5aa8bb6946d85fa7328",
+          "status" : "passed",
+          "time" : {
+            "start" : 1669111847353,
+            "stop" : 1669111847372,
+            "duration" : 19
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'code': 0, 'message': 'SUCCESS'}", "{'name': '房间', 'id': 54182}", "'会议室名称限制不可输入特殊符号'" ]
+        }, {
+          "name" : "test_02",
+          "uid" : "c371e0e29d5f6b81",
+          "parentUid" : "092bc693fa99e5aa8bb6946d85fa7328",
+          "status" : "passed",
+          "time" : {
+            "start" : 1669111847407,
+            "stop" : 1669111847407,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "092bc693fa99e5aa8bb6946d85fa7328"
+      } ],
+      "uid" : "e57a641df99f2c1f98f073bf03efa15d"
+    } ],
+    "uid" : "6836084e464323fc8ccf3cf2efe9185b"
+  } ],
+  "name" : "suites"
+}

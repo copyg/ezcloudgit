@@ -1,0 +1,79 @@
+
+room_info:
+  - - name: "会议室名更改"
+      id: 54182
+      pid: 12282
+      roomTypeIds: ["3","1"]
+      remark: ["1"]
+      capacity: 1
+      sortNo: 1
+      unitPrice: 1
+    - code: 0
+      message: SUCCESS
+    - "会议室名称限制不可输入特殊符号"
+  - - name: "会议室容量最大值"
+      id: 54182
+      pid: 12282
+      roomTypeIds: ["3","1"]
+      remark: ["1"]
+      capacity: 100000000
+      sortNo: 1
+      unitPrice: 1
+    - code: 0
+      message: SUCCESS
+    - "会议室容量可输入最大值为100000000"
+  - - name: "会议室排序号最大值"
+      id: 54182
+      pid: 12282
+      roomTypeIds: ["3","1"]
+      remark: ["1"]
+      capacity: 1
+      sortNo: 100000000
+      unitPrice: 1
+    - code: 0
+      message: SUCCESS
+    - "会议室排序号可输入最大值为100000000"
+  - - name: "会议室费用最大值"
+      id: 54182
+      pid: 12282
+      roomTypeIds: ["3"]
+      remark: ["1"]
+      capacity: 1
+      sortNo: 1
+      unitPrice: 100000000
+    - code: 0
+      message: SUCCESS
+    - "会议室排序号可输入最大值为100000000"
+
+
+roomarea_info:
+  - - name: "区域"
+      id: 10073
+      unitPrice: 1
+    - code: 0
+      message: SUCCESS
+    - "可更改区域名"
+
+  - - name: "区域"
+      id: 10073
+      unitPrice: 1
+    - code: 0
+      message: SUCCESS
+    - "可更改区域每小时收费值"
+
+roomtype_info:
+  - - name: "会议室类型"
+      id: 14
+      remark: "1"
+      updatedTime: "2022-11-23 16:02:58"
+    - code: 0
+      message: SUCCESS
+    - "可更改会议室类型名称"
+
+exclusive_info:
+  - - id: 4
+      pid: 3
+      name: "分会场管理"
+    - code: 0
+      message: SUCCESS
+    - "可更改专属会议室排序"

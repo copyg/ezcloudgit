@@ -1,0 +1,102 @@
+{
+  "uid" : "c371e0e29d5f6b81",
+  "name" : "test_02",
+  "fullName" : "test_lianxi.test_fist.TestRoomko#test_02",
+  "historyId" : "b6529699c18c5980ff879f83cda4c62f",
+  "time" : {
+    "start" : 1669111847407,
+    "stop" : 1669111847407,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_method_fixture_TestRoomko",
+    "time" : {
+      "start" : 1669111847377,
+      "stop" : 1669111847406,
+      "duration" : 29
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "3a4883c16affacca",
+      "name" : "stdout",
+      "source" : "3a4883c16affacca.txt",
+      "type" : "text/plain",
+      "size" : 1128
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "xunit_setup_method_fixture_TestRoomko::0",
+    "time" : {
+      "start" : 1669111847408,
+      "stop" : 1669111847408,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test_lianxi"
+  }, {
+    "name" : "suite",
+    "value" : "test_fist"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRoomko"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-CORM66E"
+  }, {
+    "name" : "thread",
+    "value" : "50580-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_lianxi.test_fist"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c371e0e29d5f6b81.json",
+  "parameterValues" : [ ]
+}

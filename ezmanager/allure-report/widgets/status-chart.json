@@ -1,0 +1,51 @@
+[ {
+  "uid" : "fb83231a11d8a049",
+  "name" : "会议室名称限制不可输入特殊符号",
+  "time" : {
+    "start" : 1669111911792,
+    "stop" : 1669111911890,
+    "duration" : 98
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e615f7604f4f3672",
+  "name" : "会议室名称限制不可输入特殊符号",
+  "time" : {
+    "start" : 1669111911943,
+    "stop" : 1669111911944,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5e1bfffe8d2b6c22",
+  "name" : "test_01[param0-expected0-会议室名称限制不可输入特殊符号]",
+  "time" : {
+    "start" : 1669111847353,
+    "stop" : 1669111847372,
+    "duration" : 19
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c371e0e29d5f6b81",
+  "name" : "test_02",
+  "time" : {
+    "start" : 1669111847407,
+    "stop" : 1669111847407,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6a1368997ecaf11c",
+  "name" : "用户名限制不可输入特殊符号",
+  "time" : {
+    "start" : 1669111847280,
+    "stop" : 1669111847280,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]

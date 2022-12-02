@@ -1,0 +1,82 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "修改用户信息",
+    "children" : [ {
+      "name" : "修改用户邮箱",
+      "children" : [ {
+        "name" : "用户名限制不可输入特殊符号",
+        "uid" : "6a1368997ecaf11c",
+        "parentUid" : "126341b5cc565853316f27a418644df8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1669111847280,
+          "stop" : 1669111847280,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'message': 'success'}", "{'actualName': '用户名', 'nickname': '', 'id': '713', 'email': '', 'tel': '', 'deptId': 192}", "'用户名限制不可输入特殊符号'" ]
+      } ],
+      "uid" : "126341b5cc565853316f27a418644df8"
+    } ],
+    "uid" : "960eba00edd9bb9ef92ff5dc3b339666"
+  }, {
+    "name" : "test_01[param0-expected0-会议室名称限制不可输入特殊符号]",
+    "uid" : "5e1bfffe8d2b6c22",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1669111847353,
+      "stop" : 1669111847372,
+      "duration" : 19
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "{'code': 0, 'message': 'SUCCESS'}", "{'name': '房间', 'id': 54182}", "'会议室名称限制不可输入特殊符号'" ]
+  }, {
+    "name" : "test_02",
+    "uid" : "c371e0e29d5f6b81",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1669111847407,
+      "stop" : 1669111847407,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "修改会议室信息",
+    "children" : [ {
+      "name" : "会议室名称限制不可输入特殊符号",
+      "uid" : "fb83231a11d8a049",
+      "parentUid" : "d47e5a5450b01fcb9192d167cdddb3ee",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669111911792,
+        "stop" : 1669111911890,
+        "duration" : 98
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'code': 0, 'message': 'SUCCESS'}", "{'name': '房间', 'id': 54182}", "'会议室名称限制不可输入特殊符号'" ]
+    }, {
+      "name" : "会议室名称限制不可输入特殊符号",
+      "uid" : "e615f7604f4f3672",
+      "parentUid" : "d47e5a5450b01fcb9192d167cdddb3ee",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669111911943,
+        "stop" : 1669111911944,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'code': 0, 'message': 'SUCCESS'}", "{'name': '房间', 'id': 54182}", "'会议室名称限制不可输入特殊符号'" ]
+    } ],
+    "uid" : "d47e5a5450b01fcb9192d167cdddb3ee"
+  } ],
+  "name" : "behaviors"
+}

@@ -1,0 +1,111 @@
+[ {
+  "uid" : "f8cee6580546cd9",
+  "name" : "可更改区域名",
+  "time" : {
+    "start" : 1669258204154,
+    "stop" : 1669258204246,
+    "duration" : 92
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "35fe36d4f98b2b05",
+  "name" : "可更改专属会议室排序",
+  "time" : {
+    "start" : 1669258069124,
+    "stop" : 1669258069209,
+    "duration" : 85
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "42c07a12993ec531",
+  "name" : "会议室排序号可输入最大值为100000000",
+  "time" : {
+    "start" : 1669258203848,
+    "stop" : 1669258203933,
+    "duration" : 85
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7980dce5713be34a",
+  "name" : "可更改区域每小时收费值",
+  "time" : {
+    "start" : 1669258204747,
+    "stop" : 1669258204758,
+    "duration" : 11
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "77dd9fd8bd45bae3",
+  "name" : "会议室名称限制不可输入特殊符号",
+  "time" : {
+    "start" : 1669258203509,
+    "stop" : 1669258203599,
+    "duration" : 90
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9ccae70dd1a3fa7e",
+  "name" : "会议室容量可输入最大值为100000000",
+  "time" : {
+    "start" : 1669258203679,
+    "stop" : 1669258203766,
+    "duration" : 87
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e45a5f1c84dd2390",
+  "name" : "可更改会议室类型名称",
+  "time" : {
+    "start" : 1669258204465,
+    "stop" : 1669258204549,
+    "duration" : 84
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bbaafd8dc4dff16",
+  "name" : "可更改区域名",
+  "time" : {
+    "start" : 1669258204626,
+    "stop" : 1669258204640,
+    "duration" : 14
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "20d38d1dd8f6629b",
+  "name" : "可更改会议室类型名称",
+  "time" : {
+    "start" : 1669258174728,
+    "stop" : 1669258174813,
+    "duration" : 85
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5719fe8c3d567c1",
+  "name" : "会议室排序号可输入最大值为100000000",
+  "time" : {
+    "start" : 1669258204009,
+    "stop" : 1669258204096,
+    "duration" : 87
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4a3d13b2299f8e8d",
+  "name" : "可更改区域每小时收费值",
+  "time" : {
+    "start" : 1669258204313,
+    "stop" : 1669258204401,
+    "duration" : 88
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

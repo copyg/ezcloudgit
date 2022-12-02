@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "NameError: name 'a' is not defined",
+      "children" : [ {
+        "name" : "用户名限制不可输入特殊符号",
+        "uid" : "6a1368997ecaf11c",
+        "parentUid" : "158ff8eab56637e91a10f06a80df7660",
+        "status" : "broken",
+        "time" : {
+          "start" : 1669111847280,
+          "stop" : 1669111847280,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'message': 'success'}", "{'actualName': '用户名', 'nickname': '', 'id': '713', 'email': '', 'tel': '', 'deptId': 192}", "'用户名限制不可输入特殊符号'" ]
+      } ],
+      "uid" : "158ff8eab56637e91a10f06a80df7660"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}

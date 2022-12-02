@@ -1,0 +1,105 @@
+{
+  "uid" : "41cdc516c9ee7583",
+  "name" : "会议室排序号可输入最大值为100000000",
+  "fullName" : "cases.edit.test_room.TestRoom#test_01",
+  "historyId" : "e985d7cd47eb29417e74364cb52e6c05",
+  "time" : {
+    "start" : 1669258041136,
+    "stop" : 1669258041221,
+    "duration" : 85
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_method_fixture_TestRoom",
+    "time" : {
+      "start" : 1669258041077,
+      "stop" : 1669258041135,
+      "duration" : 58
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "xunit_setup_method_fixture_TestRoom::0",
+    "time" : {
+      "start" : 1669258041223,
+      "stop" : 1669258041223,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "epic",
+    "value" : "会议室管理"
+  }, {
+    "name" : "feature",
+    "value" : "会议室"
+  }, {
+    "name" : "story",
+    "value" : "修改会议室基础信息"
+  }, {
+    "name" : "parentSuite",
+    "value" : "cases.edit"
+  }, {
+    "name" : "suite",
+    "value" : "test_room"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRoom"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-CORM66E"
+  }, {
+    "name" : "thread",
+    "value" : "57668-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "cases.edit.test_room"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected",
+    "value" : "{'code': 0, 'message': 'SUCCESS'}"
+  }, {
+    "name" : "parameter",
+    "value" : "{'name': '会议室费用最大值', 'id': 54182, 'pid': 12282, 'roomTypeIds': ['3'], 'remark': ['1'], 'capacity': 1, 'sortNo': 1, 'unitPrice': 100000000}"
+  }, {
+    "name" : "title",
+    "value" : "'会议室排序号可输入最大值为100000000'"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "41cdc516c9ee7583.json",
+  "parameterValues" : [ "{'code': 0, 'message': 'SUCCESS'}", "{'name': '会议室费用最大值', 'id': 54182, 'pid': 12282, 'roomTypeIds': ['3'], 'remark': ['1'], 'capacity': 1, 'sortNo': 1, 'unitPrice': 100000000}", "'会议室排序号可输入最大值为100000000'" ]
+}

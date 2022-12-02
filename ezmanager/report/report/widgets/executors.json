@@ -1,0 +1,8 @@
+[ {
+  "name" : "付智",
+  "type" : "jenkins",
+  "url" : "https://dkl.ezpro.com",
+  "buildOrder" : 2,
+  "buildName" : "2022-11-30",
+  "buildUrl" : "https://dkl.ezpro.com"
+} ]

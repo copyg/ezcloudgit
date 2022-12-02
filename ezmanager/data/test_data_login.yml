@@ -1,0 +1,20 @@
+- - user: super
+    psw: superAdmin
+  - code: 0
+    errMsg: ''
+  - "输入正确的账号密码登录，可登录成功"
+- - user: "5"
+    psw: superAdmin
+  - code: 410
+    errMsg: '用户名或密码错误'
+  - "不输入用户名登录，登录失败"
+- - user: super
+    psw: 
+  - code: 410
+    errMsg: '用户名或密码错误'
+  - "不输入用户密码登录，登录失败"
+- - user: 284058992@qq.com
+    psw: fuzhi1222
+  - code: 410
+    errMsg: '用户名或密码错误'
+  - "外部用户即非公司员工，登录，登录失败"

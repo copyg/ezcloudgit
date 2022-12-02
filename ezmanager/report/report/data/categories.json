@@ -1,0 +1,39 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: 编辑会议室失败！\nassert '无效的id' == 'SUCCESS'\n  - SUCCESS\n  + 无效的id",
+      "children" : [ {
+        "name" : "可更改区域名",
+        "uid" : "bbaafd8dc4dff16",
+        "parentUid" : "ce657957910f2fe37ffd4a7ce291df9e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1669258204626,
+          "stop" : 1669258204640,
+          "duration" : 14
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'code': 0, 'message': 'SUCCESS'}", "{'name': '区域', 'id': 10073, 'unitPrice': 1}", "'可更改区域名'" ]
+      }, {
+        "name" : "可更改区域每小时收费值",
+        "uid" : "7980dce5713be34a",
+        "parentUid" : "ce657957910f2fe37ffd4a7ce291df9e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1669258204747,
+          "stop" : 1669258204758,
+          "duration" : 11
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'code': 0, 'message': 'SUCCESS'}", "{'name': '区域', 'id': 10073, 'unitPrice': 1}", "'可更改区域每小时收费值'" ]
+      } ],
+      "uid" : "ce657957910f2fe37ffd4a7ce291df9e"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}

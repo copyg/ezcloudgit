@@ -1,0 +1,133 @@
+{
+  "uid" : "7980dce5713be34a",
+  "name" : "可更改区域每小时收费值",
+  "fullName" : "cases.edit.test_room.TestRoom#test_02",
+  "historyId" : "724a1e10054701cea306cd9b3cc2729e",
+  "time" : {
+    "start" : 1669258204747,
+    "stop" : 1669258204758,
+    "duration" : 11
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: 编辑会议室失败！\nassert '无效的id' == 'SUCCESS'\n  - SUCCESS\n  + 无效的id",
+  "statusTrace" : "self = <test_room.TestRoom object at 0x0000029F2483AEB8>, parameter = {'id': 10073, 'name': '区域', 'unitPrice': 1}\nexpected = {'code': 0, 'message': 'SUCCESS'}, title = '可更改区域每小时收费值'\n\n    @allure.feature(\"分会场管理\")\n    @allure.story(\"修改分会场基础信息\")\n    @allure.severity(allure.severity_level.NORMAL)    # 一般\n    @pytest.mark.parametrize(\"parameter,expected,title\",data[\"roomarea_info\"])\n    def test_02(self,parameter,expected,title):\n        allure.dynamic.title(title)\n        # 第一步，编辑会议室\n        s = self.s\n        room_name = edit_exclusive_room(s,parameter)\n        # 第二步，确认返回message: SUCCESS\n        result_json = room_name[\"message\"]\n        # result_json实际结果，expected预期结果\n>       assert  result_json == expected[\"message\"],\"编辑会议室失败！\"\nE       AssertionError: 编辑会议室失败！\nE       assert '无效的id' == 'SUCCESS'\nE         - SUCCESS\nE         + 无效的id\n\ncases\\edit\\test_room.py:107: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_method_fixture_TestRoom",
+    "time" : {
+      "start" : 1669258204690,
+      "stop" : 1669258204746,
+      "duration" : 56
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "xunit_setup_method_fixture_TestRoom::0",
+    "time" : {
+      "start" : 1669258204766,
+      "stop" : 1669258204766,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "修改分会场基础信息"
+  }, {
+    "name" : "epic",
+    "value" : "会议室管理"
+  }, {
+    "name" : "feature",
+    "value" : "分会场管理"
+  }, {
+    "name" : "parentSuite",
+    "value" : "cases.edit"
+  }, {
+    "name" : "suite",
+    "value" : "test_room"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRoom"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-CORM66E"
+  }, {
+    "name" : "thread",
+    "value" : "43148-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "cases.edit.test_room"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected",
+    "value" : "{'code': 0, 'message': 'SUCCESS'}"
+  }, {
+    "name" : "parameter",
+    "value" : "{'name': '区域', 'id': 10073, 'unitPrice': 1}"
+  }, {
+    "name" : "title",
+    "value" : "'可更改区域每小时收费值'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 2,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "297050a030d2876b",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: 编辑会议室失败！\nassert '无效的id' == 'SUCCESS'\n  - SUCCESS\n  + 无效的id",
+        "time" : {
+          "start" : 1669257772647,
+          "stop" : 1669257772661,
+          "duration" : 14
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "7980dce5713be34a.json",
+  "parameterValues" : [ "{'code': 0, 'message': 'SUCCESS'}", "{'name': '区域', 'id': 10073, 'unitPrice': 1}", "'可更改区域每小时收费值'" ]
+}

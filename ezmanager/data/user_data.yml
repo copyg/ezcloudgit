@@ -1,0 +1,14 @@
+
+user_info:
+  - - actualName: "用户名"
+      nickname: ""
+      id: "713"
+      email: ""
+      tel: ""
+      deptId: 192
+    - message: success
+    - "用户名限制不可输入特殊符号"
+
+
+    
+
